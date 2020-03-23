@@ -1,6 +1,6 @@
 Package: stabm
 Title: Stability Measures for Feature Selection
-Version: 1.1.1
+Version: 1.1.2
 Authors@R: person("Andrea", "Bommert", email = "bommert@statistik.tu-dortmund.de", role = c("aut", "cre"))
 Description: An implementation of many measures for the assessment of the stability
     of feature selection. Both simple measures and measures which take into account
@@ -18,8 +18,8 @@ RoxygenNote: 6.1.1
 URL: https://github.com/bommert/stabm
 BugReports: https://github.com/bommert/stabm/issues
 NeedsCompilation: no
-Packaged: 2020-02-25 14:56:24 UTC; bommert
+Packaged: 2020-03-23 17:09:53 UTC; bommert
 Author: Andrea Bommert [aut, cre]
 Maintainer: Andrea Bommert <bommert@statistik.tu-dortmund.de>
 Repository: CRAN
-Date/Publication: 2020-02-26 19:40:03 UTC
+Date/Publication: 2020-03-23 18:00:02 UTC
