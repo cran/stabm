@@ -1,3 +1,9 @@
+#' @importFrom tools toRd
+format_bib = function(...) {
+  str = vapply(list(...), function(entry) toRd(bibentries[[entry]]), FUN.VALUE = "")
+  paste0(str, collapse = "\n\n")
+}
+
 #' @importFrom utils bibentry
 bibentries       = c(
   Davis2006      = bibentry("article",
@@ -157,17 +163,15 @@ bibentries       = c(
     booktitle    = "Machine Learning and Knowledge Discovery in Databases"
   ),
 
-  Cohen1960      = bibentry("article",
-    doi          = "10.1177/001316446002000104",
-    year         = "1960",
-    month        = "apr",
-    publisher    = "{SAGE} Publications",
-    volume       = "20",
-    number       = "1",
-    pages        = "37--46",
-    author       = "Jacob Cohen",
-    title        = "A Coefficient of Agreement for Nominal Scales",
-    journal      = "Educational and Psychological Measurement"
+  Carletta1996   = bibentry("article",
+    title        = "Assessing Agreement on Classification Tasks: The Kappa Statistic",
+    author       = "Carletta, Jean",
+    journal      = "Computational Linguistics",
+    volume       = "22",
+    number       = "2",
+    pages        = "249--254",
+    year         = "1996",
+    publisher    = "MIT Press"
   ),
 
   Nogueira2018   = bibentry("article",

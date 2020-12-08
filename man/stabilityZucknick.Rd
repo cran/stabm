@@ -76,8 +76,7 @@ using stability measures.
 The stability measure is defined as
 \deqn{\frac{2}{m(m-1)}\sum_{i=1}^{m-1} \sum_{j=i+1}^{m}
 \frac{|V_i \cap V_j| + C(V_i, V_j) + C(V_j, V_i)}{|V_i \cup V_j|}} with
-\deqn{C(V_k, V_l) = \frac{1}{|V_l|} \sum_{(x, y) \in V_k \times (V_l \backslash V_k) \ with \
-Similarity(x,y) \geq threshold} Similarity(x,y).}
+\deqn{C(V_k, V_l) = \frac{1}{|V_l|} \sum_{(x, y) \in V_k \times (V_l \setminus V_k) \ \mathrm{with Similarity}(x,y) \geq \mathrm{threshold}} \mathop{\mathrm{Similarity}}(x,y).}
 Note that this definition slightly differs from its original in order to make it suitable
 for arbitrary similarity measures.
 }
@@ -100,14 +99,15 @@ mat = 0.92 ^ abs(outer(1:10, 1:10, "-"))
 stabilityZucknick(features = feats, sim.mat = mat)
 }
 \references{
-Bommert A, Rahnenführer J, Lang M (2017).
-\dQuote{A Multicriteria Approach to Find Predictive and Sparse Models with Stable Feature Selection for High-Dimensional Data.}
-\emph{Computational and Mathematical Methods in Medicine}, \bold{2017}, 1--18.
-\doi{10.1155/2017/7907163}.
 Zucknick M, Richardson S, Stronach EA (2008).
 \dQuote{Comparing the Characteristics of Gene Expression Profiles Derived by Univariate and Multivariate Classification Methods.}
 \emph{Statistical Applications in Genetics and Molecular Biology}, \bold{7}(1).
 \doi{10.2202/1544-6115.1307}.
+
+Bommert A, Rahnenführer J, Lang M (2017).
+\dQuote{A Multicriteria Approach to Find Predictive and Sparse Models with Stable Feature Selection for High-Dimensional Data.}
+\emph{Computational and Mathematical Methods in Medicine}, \bold{2017}, 1--18.
+\doi{10.1155/2017/7907163}.
 }
 \seealso{
 \link{listStabilityMeasures}

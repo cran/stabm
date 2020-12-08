@@ -70,7 +70,7 @@ using stability measures.
 \details{
 Let \eqn{O_{ij}} denote the number of features in \eqn{V_i} that are not
 shared with \eqn{V_j} but that have a highly simlar feature in \eqn{V_j}:
-\deqn{O_{ij} = |\{ x \in (V_i \backslash V_j) : \exists y \in (V_j \backslash V_i) \ with \
+\deqn{O_{ij} = |\{ x \in (V_i \setminus V_j) : \exists y \in (V_j \backslash V_i) \ with \
 Similarity(x,y) \geq threshold \}|.}
 Then the stability measure is defined as (see Notation)
 \deqn{\frac{2}{m(m-1)}\sum_{i=1}^{m-1} \sum_{j=i+1}^{m}
@@ -102,6 +102,7 @@ Yu L, Han Y, Berens ME (2012).
 \dQuote{Stable Gene Selection from Microarray Data via Sample Weighting.}
 \emph{IEEE/ACM Transactions on Computational Biology and Bioinformatics}, \bold{9}(1), 262--272.
 \doi{10.1109/tcbb.2011.47}.
+
 Zhang M, Zhang L, Zou J, Yao C, Xiao H, Liu Q, Wang J, Wang D, Wang C, Guo Z (2009).
 \dQuote{Evaluating reproducibility of differential expression discoveries in microarray studies by considering correlated molecular changes.}
 \emph{Bioinformatics}, \bold{25}(13), 1662--1668.
