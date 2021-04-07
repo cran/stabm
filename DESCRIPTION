@@ -1,6 +1,6 @@
 Package: stabm
 Title: Stability Measures for Feature Selection
-Version: 1.2.0
+Version: 1.2.1
 Authors@R: 
     c(person(given = "Andrea",
              family = "Bommert",
@@ -29,9 +29,9 @@ VignetteBuilder: knitr
 Encoding: UTF-8
 RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2021-03-30 08:52:36 UTC; bommert
+Packaged: 2021-04-06 12:16:49 UTC; bommert
 Author: Andrea Bommert [aut, cre] (<https://orcid.org/0000-0002-1005-9351>),
   Michel Lang [aut] (<https://orcid.org/0000-0001-9754-0393>)
 Maintainer: Andrea Bommert <bommert@statistik.tu-dortmund.de>
 Repository: CRAN
-Date/Publication: 2021-03-30 09:50:02 UTC
+Date/Publication: 2021-04-07 09:30:02 UTC

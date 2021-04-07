@@ -1,4 +1,4 @@
-e8c7447709335ed31ecb14cceb4d0bd0 *DESCRIPTION
+f5c6d8cc2fb856a17f53d5cac1b01071 *DESCRIPTION
 0c7fda7a3520965bb8b6ddf25efa0bcc *NAMESPACE
 055dac5a00647a2f1f37e6eb27ed1ed4 *R/bibentries.R
 c3ac249fb6e3cf3b9e850bc789cecace *R/documentation_stability.R
@@ -14,12 +14,13 @@ d5b32f08d18663f568b0e50947f34cee *R/stability.R
 d6923a4fb2701004e130a9c7117c080c *R/stability_functions_corrected.R
 ea500096f6b694fd42d5256e61820d9c *R/stability_functions_uncorrected.R
 eeea50f713d5b587c0764dd4d3a9b209 *R/zzz.R
-b6e8ce657cca13cd517f6190f16b4e21 *README.md
-dd0bf822f87b9c07b5739c754b4c7860 *build/partial.rdb
+0863c236728e28590ff7e71fb27de2dd *README.md
+a0b4d6b8c02b3988211b80323d01285e *build/partial.rdb
 3359dc67ec93480b01e87a5e0ecf143b *build/vignette.rds
+ff09cdc4d121515cb617ef95e202b4cb *inst/CITATION
 0321304e608f891080c51a54f791d400 *inst/doc/stabm.R
 989f24d3cc33be68cd3aca0d1e98613e *inst/doc/stabm.Rmd
-0098fcb4ee1cc4993578040d6fc68c94 *inst/doc/stabm.pdf
+59433a0d75d4c72d3afcc3d6e9e0adab *inst/doc/stabm.pdf
 7fa4afd85797cac8a482019418e97e35 *man/adjustedDocumentation.Rd
 c7969bbb8c48b71ace05c066dec1329d *man/correctedDocumentation.Rd
 2ee36e5202aaa4eac5ed0809359e70c2 *man/listStabilityMeasures.Rd
