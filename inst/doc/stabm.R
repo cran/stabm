@@ -12,7 +12,7 @@ stabilityNogueira(features = feats, p = 10)
 ## -----------------------------------------------------------------------------
 mat = 0.92 ^ abs(outer(1:10, 1:10, "-"))
 set.seed(1)
-stabilityIntersectionCount(features = feats, sim.mat = mat, N = 1000)
+stabilityIntersectionCount(features = feats, sim.mat = mat, N = 100)
 
 ## ---- fig.width=4.5, fig.height=3, fig.align="center", message=FALSE----------
 plotFeatures(feats)
@@ -79,7 +79,7 @@ sim.mat[sel.feats, sel.feats]
 plotFeatures(selected_features3, sim.mat = sim.mat)
 
 ## -----------------------------------------------------------------------------
-stabilityIntersectionCount(selected_features3, sim.mat = sim.mat, N = 1000)
+stabilityIntersectionCount(selected_features3, sim.mat = sim.mat, N = 100)
 
 ## -----------------------------------------------------------------------------
 no.sim.mat = diag(nrow(sim.mat))
